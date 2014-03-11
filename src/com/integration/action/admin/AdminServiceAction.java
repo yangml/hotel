@@ -7,6 +7,7 @@ import com.integration.entity.Admin;
 import com.integration.service.AdminService;
 @SuppressWarnings("serial")
 public class AdminServiceAction extends ActionSupport {
+	
 	private Admin admin;
 	private AdminService adminService;
 	public AdminService getAdminService() {
